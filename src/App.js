@@ -20,7 +20,7 @@ function App() {
         <h1>Counter app using state</h1>
       </header>
       <h2>Current value of count is {count}</h2>
-      <button>Reset Counter</button>
+      <button onClick={() => setCount(0)}>Reset Counter</button>
       <button onClick={() => setCount(count + 1)}>Increment Counter</button>
       <button onClick={() => setCount(count - 1)}>Decrement Counter</button>
     </div>
